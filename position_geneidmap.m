@@ -1,5 +1,7 @@
 function out_table = position_geneidmap(J,reftable)
 
+%J comes from removesinglets.m ; reftable comes from stripgbk.m
+
 samtrim_height = length(J);
 reftable_height = length(reftable);
 k=1;
